@@ -1,0 +1,9 @@
+{
+  "name": "watchfile",
+  "version": "0.0.1",
+  "description": "watch & display file, even changing will be displayed!",
+  "global": "1",
+  "install": "install -b watchfile.sh ${PREFIX:-/usr/local}/bin/watchfile",
+  "scripts": [ "watchfile.sh" ]
+}
+
