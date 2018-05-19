@@ -12,14 +12,19 @@ $ watchfile file.txt
 
 # install
 
-## homebrew (in progress...)
+## homebrew
 
 ```bash
 $ brew tap Cj-bc/watchfile
 $ brew install watchfile
 ```
 
-## bpkg (in progress...)
+when you use hoembrew, it might not work and say 'Permission denied.'
+This is known big bug and this is caused because watchfile itself($(brew --prefix)/Cellar/watchfile/<version>/bin/watchfile) has no permission to execute.
+I'm not sure why it's occured, but the easy solution is to run:
+`$ chmod 755 $(brew --prefix)/Cellar/watchfile/<version>/bin/watchfile`
+
+## bpkg
 
 ```bash
 $ bpkg install Cj-bc/watchfile -g

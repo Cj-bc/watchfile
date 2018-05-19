@@ -1,0 +1,1 @@
+(A)  homebrew installation fails because /usr/local/Cellar/watchfile/<version>/bin/watchfile doesn't have execute permission. @bugfix
