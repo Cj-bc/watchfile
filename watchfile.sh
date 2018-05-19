@@ -1,4 +1,4 @@
-#/usr/local/bin/bash
+#!/usr/local/bin/bash
 # watchfile - watch file and display them & update contents
 #
 # ver: 0.0.1
