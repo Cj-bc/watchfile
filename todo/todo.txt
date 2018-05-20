@@ -1,7 +1,4 @@
 (A)  homebrew installation fails because /usr/local/Cellar/watchfile/<version>/bin/watchfile doesn't have execute permission. @bugfix
-automatically display the same file under other(current) directory as todo.txt,etc. @feature
-(B) support color @feature
+(B) automatically display the same file under other(current) directory as todo.txt,etc. @feature
 support color scheme for each filetype @feature
-
-
-
+support vim syntax hilight @feature
